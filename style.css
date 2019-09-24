@@ -231,6 +231,104 @@ body{
     margin-top: -110px;
     margin-bottom: 0px;
 }
+.circle1_position4{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-color: #1289BE;
+    opacity: .5;
+    border-radius: 50%;
+    margin: -100px auto 0px 600px;
+}
+.circle2_position4{
+    height: 150px;
+    width: 150px;
+    background-color: #6DCB57;
+    opacity: .5;
+    border-radius: 50%;
+    margin: 550px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.circle3_position4{
+    height: 20px;
+    width: 20px;
+    background-color: #000AFA;
+    opacity: .5;
+    border-radius: 50%;
+    margin: 520px;
+    margin-top: -60px;
+    margin-bottom: 0px;
+}
+.circle4_position4{
+    height: 80px;
+    width: 80px;
+    background-color: #47D9D9;
+    opacity: .5;
+    border-radius: 50%;
+    margin: 550px;
+    margin-top: -360px;
+    margin-bottom: 0px;
+}
+.circle5_position4{
+    height: 110px;
+    width: 110px;
+    background-color: #4336DD;
+    opacity: .5;
+    border-radius: 50%;
+    margin: 960px;
+    margin-top: -260px;
+    margin-bottom: 0px;
+}
+.circle1_position5{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-color: #1289BE;
+    opacity: .5;
+    border-radius: 50%;
+    margin: 120px auto 0px 470px;
+}
+.circle2_position5{
+    height: 150px;
+    width: 150px;
+    background-color: #6DCB57;
+    opacity: .5;
+    border-radius: 50%;
+    margin: 640px;
+    margin-top: -100px;
+    margin-bottom: 0px;
+}
+.circle3_position5{
+    height: 20px;
+    width: 20px;
+    background-color: #000AFA;
+    opacity: .5;
+    border-radius: 50%;
+    margin: 635px;
+    margin-top: -50px;
+    margin-bottom: 0px;
+}
+.circle4_position5{
+    height: 80px;
+    width: 80px;
+    background-color: #47D9D9;
+    opacity: .5;
+    border-radius: 50%;
+    margin: 740px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.circle5_position5{
+    height: 110px;
+    width: 110px;
+    background-color: #4336DD;
+    opacity: .5;
+    border-radius: 50%;
+    margin: 660px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
 .imagery{
     position: relative;
     top: -110px;
@@ -244,8 +342,8 @@ body{
     body{
         background-color: black;
         color: white;
-        font-family: jeanne-moderno, serif;
-        font-weight: 400;
+        font-family: helvetica Neue, sans-serif;
+        font-weight: 200;
         font-style: normal;
     }
     .title{
@@ -257,18 +355,29 @@ body{
         transform-origin: center;
         transform: rotate(0deg);
     }
+    .author{
+        position: absolute;
+        bottom: -1200px;
+        right: 35px;
+        width: 250px;
+        text-align: right;
+        font-size: 1em;
+        font-family: jeanne-moderno, serif;
+        font-weight: 400;
+        font-style: normal;
+    }
     /* go through each section and resize for tablet*/
     .section1{
         width: 50vw;
-        margin: 300px;
-        margin-top: 200px;
+        margin: 0px;
+        margin-top: -200px;
         margin-bottom: 40px;
         text-align: center;
         font-size: 1.5em;
     }
     .section2{
         width: 50vw;
-        margin: 600px;
+        margin: 190px;
         margin-top: 10px;
         margin-bottom: 40px;
         text-align: left;
@@ -276,7 +385,7 @@ body{
     }
     .section3{
         width: 50vw;
-        margin: 520px;
+        margin: 100px;
         margin-top: 0px;
         margin-bottom: 10px;
         text-align: left;
@@ -284,8 +393,8 @@ body{
     }
     .section4{
         width: 50vw;
-        margin: 650px;
-        margin-top: 350px;
+        margin: 300px;
+        margin-top: 270px;
         margin-bottom: 10px;
         text-align: left;
         font-size: 1.5em;
@@ -294,23 +403,23 @@ body{
     }
     .section5{
         width: 50vw;
-        margin: 600px;
-        margin-top: 90px;
+        margin: 120px;
+        margin-top: 160px;
         margin-bottom: 20px;
         text-align: left;
         font-size: 1.5em;
     }
     .section6{
         width: 50vw;
-        margin: 600px;
-        margin-top: 120px;
+        margin: 75px;
+        margin-top: 90px;
         margin-bottom: 70px;
         text-align: right;
         font-size: 1.5em;
     }
     .section7{
         width: 50vw;
-        margin: 420px;
+        margin: 40px;
         margin-top: 170px;
         text-align: left;
         font-size: 1.5em;
@@ -320,8 +429,84 @@ body{
 @media only screen and (max-width: 800px){
     body{
         background-color: black;
-        font-family: jeanne-moderno, serif;
-        font-weight: 400px;
+        font-family: helvetica Neue, sans-serif;
+        font-weight: 200px;
         font-style: normal;
     }
+}
+.title{
+    position: fixed;
+    font-size: 1.5em;
+    top: 180px;
+    left: 40px;
+}
+.section1{
+    width: 50vw;
+    margin: 90px;
+    margin-top: -400px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.section2{
+    width: 50vw;
+    margin: 200px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: left;
+    font-size: 1.5em;
+}
+.section3{
+    width: 50vw;
+    margin: 200px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 1.5em;
+}
+.section4{
+    width: 50vw;
+    margin: 380px;
+    margin-top: -180px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 1.5em;
+    transform-origin: center;
+    transform: rotate(270deg);
+}
+.section5{
+    width: 50vw;
+    margin: 560px;
+    margin-top: 180px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 1.5em;
+}
+.section6{
+    width: 50vw;
+    margin: 775px;
+    margin-top: -550px;
+    margin-bottom: 70px;
+    text-align: right;
+    font-size: 1.5em;
+}
+.section7{
+    width: 50vw;
+    margin: 950px;
+    margin-top: 130px;
+    text-align: left;
+    font-size: 1.5em;
+    transform-origin: center;
+    transform: rotate(270deg);
+}
+.author{
+    position: absolute;
+    top: 30px;
+    right: -840px;
+    width: 250px;
+    text-align: right;
+    font-size: 1em;
+    font-family: jeanne-moderno, serif;
+    font-weight: 400;
+    font-style: normal;
 }
