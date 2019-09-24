@@ -25,18 +25,17 @@ body{
     font-family: jeanne-moderno, serif;
     font-weight: 400;
     font-style: normal;
+    margin: 0px auto auto -180px;
 }
 .section1{
     width: 50vw;
-    margin: 300px;
-    margin-top: -170px;
-    margin-bottom: 40px;
+    margin: -170px 450px auto auto;
     text-align: center;
     font-size: 1.5em;
 }
 .section2{
     width: 50vw;
-    margin: 600px;
+    margin: 400px;
     margin-top: 10px;
     margin-bottom: 40px;
     text-align: left;
@@ -44,7 +43,7 @@ body{
 }
 .section3{
     width: 50vw;
-    margin: 520px;
+    margin: 320px;
     margin-top: 0px;
     margin-bottom: 10px;
     text-align: left;
@@ -52,7 +51,7 @@ body{
 }
 .section4{
     width: 50vw;
-    margin: 650px;
+    margin: 480px;
     margin-top: 350px;
     margin-bottom: 10px;
     text-align: left;
@@ -62,7 +61,7 @@ body{
 }
 .section5{
     width: 50vw;
-    margin: 520px;
+    margin: 320px;
     margin-top: 90px;
     margin-bottom: 20px;
     text-align: left;
@@ -70,15 +69,13 @@ body{
 }
 .section6{
     width: 50vw;
-    margin: 550px;
-    margin-top: 140px;
-    margin-bottom: 70px;
+    margin: 140px 455px auto auto;
     text-align: right;
     font-size: 1.5em;
 }
 .section7{
     width: 50vw;
-    margin: 450px;
+    margin: 290px;
     margin-top: 140px;
     text-align: left;
     font-size: 1.5em;
@@ -139,8 +136,8 @@ body{
     background-color: #1289BE;
     opacity: .5;
     border-radius: 50%;
-    margin: 250px;
-    margin-top: -10px;
+    margin: 210px;
+    margin-top: -20px;
     margin-bottom: 0px;
 }
 .circle2_position2{
@@ -149,8 +146,8 @@ body{
     background-color: #6DCB57;
     opacity: .5;
     border-radius: 50%;
-    margin: 270px;
-    margin-top: -50px;
+    margin: 240px;
+    margin-top: -150px;
     margin-bottom: 0px;
 }
 .circle3_position2{
@@ -159,8 +156,8 @@ body{
     background-color: #000AFA;
     opacity: .5;
     border-radius: 50%;
-    margin: 270px;
-    margin-top: -50px;
+    margin: 225px;
+    margin-top: -5px;
     margin-bottom: 0px;
 }
 .circle4_position2{
@@ -169,7 +166,7 @@ body{
     background-color: #47D9D9;
     opacity: .5;
     border-radius: 50%;
-    margin: 270px;
+    margin: 240px;
     margin-top: -50px;
     margin-bottom: 0px;
 }
@@ -179,8 +176,59 @@ body{
     background-color: #4336DD;
     opacity: .5;
     border-radius: 50%;
-    margin: 270px;
+    margin: 470px;
+    margin-top: -90px;
+    margin-bottom: 0px;
+}
+.circle1_position3{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-color: #1289BE;
+    opacity: .5;
+    border-radius: 50%;
+    margin: 350px;
+    margin-top: -150px;
+    margin-bottom: 0px;
+}
+.circle2_position3{
+    height: 150px;
+    width: 150px;
+    background-color: #6DCB57;
+    opacity: .5;
+    border-radius: 50%;
+    margin: 340px;
+    margin-top: -40px;
+    margin-bottom: 0px;
+}
+.circle3_position3{
+    height: 20px;
+    width: 20px;
+    background-color: #000AFA;
+    opacity: .5;
+    border-radius: 50%;
+    margin: 415px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+}
+.circle4_position3{
+    height: 80px;
+    width: 80px;
+    background-color: #47D9D9;
+    opacity: .5;
+    border-radius: 50%;
+    margin: 430px;
     margin-top: -50px;
+    margin-bottom: 0px;
+}
+.circle5_position3{
+    height: 110px;
+    width: 110px;
+    background-color: #4336DD;
+    opacity: .5;
+    border-radius: 50%;
+    margin: 270px;
+    margin-top: -110px;
     margin-bottom: 0px;
 }
 .imagery{
@@ -203,7 +251,7 @@ body{
     .title{
         position: fixed;
         top: 10px;
-        right: 50px;
+        right: 140px;
         width: 250px;
         font-size: 2.5em;
         transform-origin: center;
